@@ -1,0 +1,24 @@
+
+.coursecard{
+    width: 30%;
+    max-height: 300px;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+}
+
+.coursecard > p{
+
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+}
+
+.coursecard .unsubscribe:hover{
+    color: rgb(78, 1, 1);
+    cursor: pointer;
+}
+.item{
+    width: 100%
+    
+}
+

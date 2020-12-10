@@ -1,0 +1,41 @@
+
+.course_row{
+    max-width: 700px;
+    max-height: 180px;
+    margin: 18px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.course_row > img{
+    max-width: 180px;
+    margin: 10px;
+}
+
+.course_row > div{
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.course_row > div :nth-child(n){
+    margin-top: 5px;
+}
+
+.course_row > div > h5{
+    font-size: 22px;
+}
+
+.course_row  button{
+    max-width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    
+}
+
+.course_row  button:hover{
+    cursor: pointer;
+}

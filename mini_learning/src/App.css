@@ -1,0 +1,14 @@
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
