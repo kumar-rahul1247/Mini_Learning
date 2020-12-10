@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require("mongoose");
-const requireLogin = require('../Middleware/requireLogin');
+const requireLogin = require('../middleware/requireLogin');
 const Course = mongoose.model('Course');
 const User = mongoose.model('User');
 
