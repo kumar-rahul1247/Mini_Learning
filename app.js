@@ -21,10 +21,6 @@ mongoose.connection.on('error', (err)=>{
     console.log(`Error While connecting :-(:  ${err}`);
 })
 
-app.get('/', (req, res)=> {
-    res.send("hello world");
-} );
-
 if(process.env.NODE_ENV === "production"){
     console.log("I am In")
 
