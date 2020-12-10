@@ -91,9 +91,16 @@ router.post('/signin', (req, res) => {
                         return res.status(422).json({error: "Invalid Email or password"})
                     }
                 })
+                .catch(err => {
+                    console.log("bycrypt....")
+                    return res.status(422).json({error: err})
+                    console.log(err);
+                })
         })
         .catch(err => {
-            console.log(err.message);
+            console.log("find....")
+            return res.status(422).json({error: err})
+            console.log(err);
         })
 })
 

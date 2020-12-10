@@ -67,9 +67,9 @@ class Login extends Component {
 
             })
             .catch(err => {
-
+                console.log(err)
                 this.setState({ error: "Something went Wrong..!! Please try after somtime.", isLoading: false })
-                console.log(err.message)
+                
             })
 
     }
