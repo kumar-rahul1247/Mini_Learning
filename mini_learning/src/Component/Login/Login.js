@@ -54,8 +54,7 @@ class Login extends Component {
                     this.setState({ error: data.error })
                 }
                 else {
-                    localStorage.setItem("jwt", data.token);
-                    localStorage.setItem("user", JSON.stringify(data.user));
+                    
 
                     // this.dispatch({type: "USER", payload: data.user})
                     
