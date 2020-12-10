@@ -5,7 +5,7 @@ const User = mongoose.model('User');
 const bcrypt = require('bcryptjs');
 
 const jwt = require('jsonwebtoken');
-const { JWT_SECRET } = require('../config/dev');
+const { JWT_SECRET } = require('../config/keys');
 
 //  router.get('/', (req, res)=>{
 //      res.send("hello-->")
