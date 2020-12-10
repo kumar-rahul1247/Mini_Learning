@@ -93,13 +93,13 @@ router.post('/signin', (req, res) => {
                 })
                 .catch(err => {
                     console.log("bycrypt....")
-                    return res.status(422).json({error: err})
+                    return res.status(422).json({error: err,message:"bycrypt"})
                     console.log(err);
                 })
         })
         .catch(err => {
             console.log("find....")
-            return res.status(422).json({error: err})
+            return res.status(422).json({error: err, message:"bycrypt"})
             console.log(err);
         })
 })
